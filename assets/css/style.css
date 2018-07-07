@@ -12,15 +12,16 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	font-weight: 900;
-	font-size: 8vw;
+	font-size: 14vw;
 	/*defalt is 14px*/
 	color: #88D317;
 }
 
 h2 {
 	text-align: center;
-	font-size: 1.5vw;
+	font-size: 1.5em;
 	color: #1a0315;
+	margin-bottom: 20px;
 }
 
 h3 {
@@ -92,7 +93,7 @@ nav div a {
 
 /*index*/
 .index {
-	background-color: #6e3667; /*#1A0315;*/
+	background-color: #6e3667; /*#1A0315;*/ /*  #9687BB */
 	color: white;
 	width: 100%; /* background-color is set here */
 	padding: 70px 0 70px 0;
@@ -110,29 +111,18 @@ nav div a {
 	transform : translate(-50%, -50%);
 }
 
-.command_text {
-	font-size: 16px;
-	margin: 0;
-	color: #1a0315;
-	font-weight: bold;
+.index_contents ul li {
+	padding-right: 15px !important;
+    padding-left: 15px !important;
 }
 
-a {
-	color: #88d317;
-	font-weight: normal;
-	font-size: 1.25em;
+.index_contents ul li a {
+	color: white;
 }
 
-a:hover {
+.index_contents ul li a:hover {
 	text-decoration: none;
-	background-color: white;
-	color: #88d317;
-}
-
-.myskills {
-	font-weight: normal;
-	font-size: 1.2em;
-	color: #88d317;
+	color: #1a0315;
 }
 
 /*experience*/
@@ -166,7 +156,30 @@ img {
 	font-weight: 900;
 }
 
+.command_text {
+	font-size: 16px;
+	margin: 0;
+	color: #1a0315;
+	font-weight: bold;
+}
 
+a {
+	color: #88d317;
+	font-weight: normal;
+	font-size: 1.25em;
+}
+
+/* a:hover {
+	text-decoration: none;
+	background-color: white;
+	color: #88d317;
+} */
+
+.myskills {
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #88d317;
+}
 
 /*contact*/	
 .form_container {
