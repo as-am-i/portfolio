@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.33em;
 	color: #1a0315;
 	margin-bottom: 20px;
 }
@@ -112,8 +112,8 @@ nav div a {
 }
 
 .index_contents ul li {
-	padding-right: 15px !important;
-    padding-left: 15px !important;
+	padding-right: 1vw !important;
+    padding-left: 1vw !important;
 }
 
 .index_contents ul li a {
