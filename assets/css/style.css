@@ -31,7 +31,7 @@ h3 {
 }
 
 h4 {
-	font-size: 2vw;
+	font-size: 2em;
 	color: #1a0315;
 }
 
@@ -50,10 +50,13 @@ p {
     /*height: 100%;*/
 }
 
-
 /* the fixed navbar will overlay my other content without this padding-top */
 .container {
 	padding-top: 50px;
+}
+
+.custom_border {
+	border-bottom: 1.5px solid #1a0315;
 }
 
 /*change "navbar-inverse" to the original color pattern*/
@@ -127,9 +130,9 @@ nav div a {
 
 /*experience*/
 img {
-	max-width: 300px !important;
+	/* max-width: 300px !important;
 	overflow: hidden;
-	margin: 5% 0;
+	margin: 5% 0; */
 }
 
 .work_discription{
@@ -145,10 +148,15 @@ img {
 	width: 100%; /* background-color is set here */
 }
 
+#profile_name {
+	font-size: 2.5em;
+}
+
 .profile_text {
-	margin: 5% auto;
+	margin: 2% auto;
+	padding-bottom: 2%;
 	/*color: #1a0315;*/
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .more_works {
