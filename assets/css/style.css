@@ -101,6 +101,12 @@ nav div a {
 	width: 100%; /* background-color is set here */
 	padding: 70px 0 70px 0;
 
+	background-image: url("fancycrave-530798-unsplash.jpg");
+	/* height: 100%; */
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+
 	position: relative; /* parent of index_contents*/
 }
 
@@ -143,13 +149,28 @@ img {
 
 /*profile*/
 .wrap_profile {
-	background-color: #6e3667; /*#1A0315;*/
+	background-color: #78637E;
+	/* background-color: #6e3667;  */
+	/* background-color: #535353; */
+	
 	color: white;
 	width: 100%; /* background-color is set here */
 }
 
 #profile_name {
 	font-size: 2.5em;
+	margin: 10% auto;
+	color: #88d317;
+}
+
+.profile_contents li a {
+	text-decoration: none;
+	color: white;
+}
+
+.profile_contents li a:hover {
+	text-decoration: none;
+	color: #1a0315;
 }
 
 .profile_text {
@@ -186,7 +207,20 @@ a {
 .myskills {
 	font-weight: normal;
 	font-size: 1.2em;
-	color: #88d317;
+}
+
+.skill-progress {
+	margin-bottom: 10px !important;
+}
+
+.skill-bar {
+	background-color: #1a0315;
+}
+
+.skill-bar-text {
+	text-align: left;
+	padding-left: 10px;
+	font-family: 'Exo', sans-serif;
 }
 
 /*contact*/	
