@@ -126,6 +126,8 @@ nav div a {
 	-ms-transform: translateY(-50%);
 	-webkit-transform : translateY(-50%);
 	transform : translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
 }
 
 .index_contents ul li {
