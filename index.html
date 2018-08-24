@@ -26,7 +26,12 @@
     <script src="assets/bootstrap/js/bootstrap.js"></script>
 
 	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Exo|Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Inconsolata" rel="stylesheet">
+    
+    <!-- lightbox2 cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 </head>
 
 
@@ -44,7 +49,7 @@
         			<span class="icon-bar"></span>                        
       			</button>
       			<!-- text and link to index -->
-      			<span class="navbar-brand navtext"> > ~ cd </span>
+      			<span class="navbar-brand navtext"> > cd </span>
 				<a class="navbar-brand" href="#index"> /asamitanii </a>		
 	    	</div>
 
@@ -52,6 +57,9 @@
 				<ul class="nav navbar-nav">
                     <li>
                         <a href="#profile">profile/</a>
+                    </li>
+                    <li>
+                        <a href="#works">projects/</a>
                     </li>
 					<li>
 						<a href="#experience">experience/</a>
@@ -99,8 +107,7 @@
         <h3>> whoami</h3>
 
         <div class="row custom_border profile_text">
-            <div class="col-md-4">
-                <p id="profile_name"><i class="fas fa-frog fa-lg"></i> Asami Tanii</p>
+                <p id="profile_name">Asami Tanii <i class="fas fa-frog fa-lg"></i></p>
 
                 <h4>Info</h4>
                 <ul class="list-unstyled profile_contents">  
@@ -120,7 +127,6 @@
                         <a href="https://twitter.com/_as_am_i" target="_blank">Twitter</a>
                     </li>
                 </ul>
-            </div>
         </div>
         
         <h4>Summary</h4>
@@ -194,7 +200,82 @@
 	</div>
     </div>
     
+    <!-- works -->
+    <div id="works" class="container fill">
+        <h3>> find /projects</h3>
 
+        <p>Here's a list of projects.<br>Click on each thumbnail to see a big image, and feel free to check my codes on Github.</p>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail custom_thumbnail">
+                    <a href="assets/images/worklink_image.png" data-lightbox="lightbox"><img class="thumbnail_image" src="assets/images/worklink_image.png" alt="worklink_image"></a>
+                    <div class="caption">
+                        <h4 class="thmbnail_project_name">WorkLink</h4>
+                            <ul class="list-group list-unstyled">
+                                <li class="works_li"><span class="works_li_category">For</span>Co-op students in CICCC</li>
+                                <li class="works_li"><span class="works_li_category">When</span>Feb 2018 - Aug 2018</li>
+                                <li class="works_li"><span class="works_li_category">Role</span>Back-end Software Developer</li>
+                                <li class="works_li"><span class="works_li_category">Technologies</span>PHP, Laravel, MySQL, Vue.js, Vuetify, CodeCeption, Docker, GitLab</li>
+                                <li class="works_li"><span class="works_li_category">Description</span>WorkLink is an application to let students proceed Co-op programs in Cornerstone International Community College of Canada.</span></li>
+                                <li class="works_li"><span class="works_li_category">What I've Leaned</span>
+                                    <li class="works_li_inside">Relational DB design with SQL</li>
+                                    <li class="works_li_inside">Web application security (Encrypting passwords with hash, Custom validation, Middleware for authorization etc...)</li>
+                                    <li class="works_li_inside">Test-driven development (Automated tests)</li>
+                                    <li class="works_li_inside">Agile development</li>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail custom_thumbnail">
+                    <a href="assets/images/fillinbols_image.png" data-lightbox="lightbox"><img class="thumbnail_image"src="assets/images/fillinbols_image.png" alt="worklink_image"></a>
+                    <div class="caption">
+                        <h4 class="thmbnail_project_name">Fillinbols<a href="https://github.com/as-am-i/Fillinbols" target="_blank" class="thumbnail_project_link">GITHUB</a></h4>
+                        <ul class="list-group list-unstyled">
+                            <li class="works_li"><span class="works_li_category">For</span>All math lovers</li>
+                            <li class="works_li"><span class="works_li_category">When</span>Jun 2018 - Aug 2018</li>
+                            <li class="works_li"><span class="works_li_category">Role</span>iOS Developer</li>
+                            <li class="works_li"><span class="works_li_category">Technologies</span>Swift, XCode, GitHub</li>
+                            <li class="works_li"><span class="works_li_category">Description</span>Fillinbols is a simple arithmetic calculation game for iOS.</span></li>
+                            <li class="works_li"><span class="works_li_category">What I've Leaned</span>
+                                <li class="works_li_inside">Arithmetic calculation algorythm (addition, substraction, multiplication, division, modulus, power)</li>
+                                <li class="works_li_inside">Storing data with Core Data</li>
+                                <li class="works_li_inside">Set up custom timer using Timer</li>
+                                <li class="works_li_inside">Rank using NSSortDescriptor</li>
+                                <li class="works_li_inside">Multiple sections to display game results</li>
+                                <li class="works_li_inside">Dialog to ask user name using UIAlertController</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail custom_thumbnail">
+                        <a href="assets/images/skunk_image.png" data-lightbox="lightbox"><img class="thumbnail_image"src="assets/images/skunk_image.png" alt="worklink_image"></a>
+                        <div class="caption">
+                            <h4 class="thmbnail_project_name">SKUNK<a href="https://github.com/as-am-i/Java-SKUNK-Asami" target="_blank" class="thumbnail_project_link">GITHUB</a></h4>
+                            <ul class="list-group list-unstyled">
+                                <li class="works_li"><span class="works_li_category">For</span>All users</li>
+                                <li class="works_li"><span class="works_li_category">When</span>Oct 2017 - Dec 2017</li>
+                                <li class="works_li"><span class="works_li_category">Role</span>Java Developer</li>
+                                <li class="works_li"><span class="works_li_category">Technologies</span>Java, Eclipse, GitHub</li>
+                                <li class="works_li"><span class="works_li_category">Description</span>SKUNK is a simple command line game written in Java.</span></li>
+                                <li class="works_li"><span class="works_li_category">What I've Leaned</span>
+                                    <li class="works_li_inside">Model-View-Controller</li>
+                                    <li class="works_li_inside">Comparable and Comparator interfaces</li>
+                                    <li class="works_li_inside">Process of debugging</li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
 
     <!-- experience page -->
 	<div id="experience" class="container fill">
